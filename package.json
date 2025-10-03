@@ -11,6 +11,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
+    "axios": "^1.12.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-scripts": "5.0.1",
@@ -19,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "server": "json-server --watch db.json --port 4000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,5 +42,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "autoprefixer": "^10.4.21",
+    "json-server": "^1.0.0-beta.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
   }
 }
